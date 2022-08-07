@@ -4,7 +4,7 @@ import infoIcon from '../assets/infoIcon.png'
 import style from '../styles/Modal.module.css'
 
 export function Info() {
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(false);
 
     return (
         <>

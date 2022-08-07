@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useContext} from "react";
 import { Polyline } from 'react-leaflet/Polyline';
 import {UW_LAT, UW_LAT_OFFSET, UW_LONG, UW_LAT_SCALE, UW_LONG_OFFSET, UW_LONG_SCALE} from "../data/Constants";
 import {Marker, Popup} from "react-leaflet";
 import markerIcon from 'leaflet/dist/images/marker-icon.png'
 import {Icon} from 'leaflet'
+import {CanvasContext} from "../utils/Context";
 
 function MapLine(props) {
     return(
@@ -23,10 +24,14 @@ export const BuildingMarkers = props => {
                 icon={new Icon({iconUrl: markerIcon, iconSize: [25,41], iconAnchor: [12,41]})}
         >
             <Popup>
-                Building TEST
+                {props.name}
             </Popup>
         </Marker>
     )
+}
+
+export const position = (x, y) => {
+    return [yToLat(y), xToLon(x)]
 }
 
 function xToLon(x) {
