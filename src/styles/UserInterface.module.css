@@ -9,12 +9,13 @@
 
 .content {
     text-align: center;
-    width: fit-content;
+    width: max-content;
     margin: auto;
 }
 
-.content h1 {
+.content h2 {
     margin-top: 10px;
+    text-wrap: none;
 }
 
 .content p {
@@ -44,6 +45,12 @@
 
 .submit button {
     margin: 10px;
+}
+
+.menu {
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
 
 

@@ -12,18 +12,9 @@ function UserInterface(props) {
                     <Info/>
                 </div>
                 <Welcome/>
-                <Canvas props={props}/>
-
-
-
-
-                {/*<Welcome/>*/}
-                {/*<>*/}
-                {/*    <Dropdowns start={props.start} end={props.end}/>*/}
-                {/*</>*/}
-                {/*<>*/}
-                {/*    <Submit start={props.start} end={props.end} set={props.set}/>*/}
-                {/*</>*/}
+                <div className={style.menu}>
+                    <Canvas props={props}/>
+                </div>
             </div>
         </div>
     )
@@ -33,8 +24,6 @@ const Welcome = () => {
     return(
         <>
             <h2>Welcome to my University!</h2>
-            {/*<p>Choose two buildings on campus and find the most optimal route between*/}
-            {/*    them!</p>*/}
             <hr/>
         </>
     );

@@ -52,7 +52,7 @@ export const Clear = props => {
 }
 
 export const Draw = props => {
-    const usable = props.startName == "Start" || props.endName == "End";
+    const usable = props.startName === "Start" || props.endName === "End";
     let url = '';
     if (usable) {
         url = "https://campus-maps-server.herokuapp.com/path/CSE/CSE";

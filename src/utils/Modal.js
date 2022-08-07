@@ -23,13 +23,26 @@ export function Info() {
                 </Modal.Header>
                 <Modal.Body>
                     <p>
-                        A complete re-vamp of one of my final projects in my CSE classes at the
-                        University of Washington. Being swamped with finals, I wasn't able to dive deep into
-                        learning ReactJS or create an enjoyable experience for users to actually enjoy the website.
-
-                        This application allows user's to choose two buildings on
+                        This application allows users' to choose two buildings on
                         the university's campus and it will draw a route of the shortest, most optimal path
                         between them.
+                        <br/>
+                        <br/>
+                        A complete re-vamp of my final projects back in June 2022 for CSE 331 at the
+                        at the University of Washington. Being swamped with studying for three different
+                        finals, I couldn't find the time to dive deep into the project and turned in a
+                        superficial but complete project.
+                        <br/>
+                        <br/>
+                        A few month passes by and I realize that this is one of the most important projects
+                        I've done. It taught me how web applications work, what frameworks are, and how to
+                        approach these types of projects.
+                        <br/>
+                        <br/>
+                        Taking up this project again, I've learned much more about ReactJS, Kotlin, Spark,
+                        Ktor, Javascript, Typescript and deployment. Yay, more skills to put on my resume. In all
+                        seriousness though, it was very annoying and frustrating to try to learn all these new
+                        technologies in such a short time. But it was fun :P
                     </p>
                 </Modal.Body>
 
