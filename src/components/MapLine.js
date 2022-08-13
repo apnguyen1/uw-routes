@@ -1,10 +1,9 @@
-import React, {useContext} from "react";
+import React from "react";
 import { Polyline } from 'react-leaflet/Polyline';
 import {UW_LAT, UW_LAT_OFFSET, UW_LONG, UW_LAT_SCALE, UW_LONG_OFFSET, UW_LONG_SCALE} from "../data/Constants";
 import {Marker, Popup} from "react-leaflet";
 import markerIcon from 'leaflet/dist/images/marker-icon.png'
 import {Icon} from 'leaflet'
-import {CanvasContext} from "../utils/Context";
 
 function MapLine(props) {
     return(

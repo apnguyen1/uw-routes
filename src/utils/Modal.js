@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {Button, CloseButton, Modal} from "react-bootstrap";
+import {Modal} from "react-bootstrap";
 import infoIcon from '../assets/infoIcon.png'
 import style from '../styles/Modal.module.css'
 

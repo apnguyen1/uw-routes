@@ -1,5 +1,5 @@
-import React, {useContext, useState} from "react";
-import {Button, Image, Offcanvas} from "react-bootstrap";
+import React, {useContext} from "react";
+import {Offcanvas} from "react-bootstrap";
 import {Squash as Hamburger} from 'hamburger-react';
 import {CanvasContext} from "./Context";
 import {Buildings, Clear, Draw, Selection} from "./Helpers";

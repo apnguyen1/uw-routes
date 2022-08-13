@@ -4,7 +4,6 @@ import styles from "../styles/Map.module.css";
 import MapLine, {BuildingMarkers, position} from "./MapLine";
 import React, {useContext, useEffect} from "react";
 import {CanvasContext} from "../utils/Context";
-import {motion} from "framer-motion";
 
 function Map(props) {
     const {startBuilding, endBuilding, comps} = Route(props);
@@ -35,7 +34,6 @@ const Fly = (props) => {
             map.flyTo(position(start.x, start.y), 17);
         }
     }, [props.path]);
-
     return null;
 }
 
